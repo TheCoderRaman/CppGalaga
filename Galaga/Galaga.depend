@@ -476,7 +476,7 @@
 	"infra/Renderer.hpp"
 	"infra/Resources.hpp"
 
-1558651785 source:/media/leo/Novo volume/Leo/apps/c++/Galaga/src/entity/Enemy.cpp
+1558699769 source:/media/leo/Novo volume/Leo/apps/c++/Galaga/src/entity/Enemy.cpp
 	<cmath>
 	"infra/Keyboard.hpp"
 	"infra/Display.hpp"
@@ -567,7 +567,7 @@
 	<iostream>
 	"entity/FighterExplosion.hpp"
 
-1558651199 source:/media/leo/Novo volume/Leo/apps/c++/Galaga/src/entity/GameController.cpp
+1558696381 source:/media/leo/Novo volume/Leo/apps/c++/Galaga/src/entity/GameController.cpp
 	"infra/Util.hpp"
 	"infra/AudioPlayer.hpp"
 	"infra/Game.hpp"
@@ -653,7 +653,7 @@
 	"infra/Resources.hpp"
 	"infra/AudioPlayer.hpp"
 
-1558649463 source:/media/leo/Novo volume/Leo/apps/c++/Galaga/src/infra/sfml_impl/Display.cpp
+1558705495 source:/media/leo/Novo volume/Leo/apps/c++/Galaga/src/infra/sfml_impl/Display.cpp
 	<SFML/Graphics.hpp>
 	"infra/Display.hpp"
 	"infra/Keyboard.hpp"

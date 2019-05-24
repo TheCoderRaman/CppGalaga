@@ -333,7 +333,10 @@ void ol::GameController::onEnemyDestroyed(Enemy* enemy)
     {
         if (enemy->isDiving())
         {
-            scene_.spawn<ScorePoint>()->show(enemy->getScorePoint(), enemy->getPosition());
+            if (enemy->getScorePoint() > 0)
+            {
+                scene_.spawn<ScorePoint>()->show(enemy->getScorePoint(), enemy->getPosition());
+            }
             hudInfo.addScore(enemy->getScorePoint());
         }
         else
