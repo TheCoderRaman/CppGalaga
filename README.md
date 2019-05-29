@@ -1,8 +1,8 @@
 # C++ / SFML Galaga
 Galaga game implemented using C++
 
-SFML video: https://youtu.be/5YNA9JMU8PQ
-javidx9's olcPixelGameEngine: https://youtu.be/CDlmZ33LYVU
+* SFML video: https://youtu.be/5YNA9JMU8PQ
+* javidx9's olcPixelGameEngine: https://youtu.be/CDlmZ33LYVU
 
 ## Environment used for development:
 
