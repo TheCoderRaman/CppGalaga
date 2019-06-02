@@ -27,7 +27,7 @@ static bool initialize()
 {
     olc::SOUND::InitialiseAudio(44100, 1, 8, 512);
 
-    sounds[ol::Sound::CHALLENGING_STAGE_MUSIC] = loadAudio("challenging_stage.wav");
+    sounds[ol::Sound::CHALLENGING_STAGE_SOUND] = loadAudio("challenging_stage.wav");
     sounds[ol::Sound::ENEMY_BEAM] = loadAudio("enemy_beam.wav");
     sounds[ol::Sound::ENEMY_BEAM_FIGHTER_CAPTURED] = loadAudio("enemy_beam_fighter_captured.wav");
     sounds[ol::Sound::ENEMY_BOSS_DESTROYED] = loadAudio("enemy_boss_destroyed.wav");

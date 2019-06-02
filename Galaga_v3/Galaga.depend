@@ -1905,3 +1905,423 @@
 	"entity/ScorePoint.hpp"
 	"entity/GameController.hpp"
 
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/Actor.cpp
+	<cmath>
+	"infra/Util.hpp"
+	"entity/Actor.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Util.hpp
+	<string>
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/Actor.hpp
+	"infra/Vec2.hpp"
+	"infra/Collider.hpp"
+	"infra/Path.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/Renderer.hpp"
+	"infra/Entity.hpp"
+	"scene/Stage.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Vec2.hpp
+	<iostream>
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Collider.hpp
+	"infra/Vec2.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Path.hpp
+	<vector>
+	"infra/Vec2.hpp"
+	"infra/media_layer/Renderer.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/media_layer/Renderer.hpp
+	<string>
+	"infra/Vec2.hpp"
+	"infra/Resources.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Resources.hpp
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Entity.hpp
+	<functional>
+	"infra/Util.hpp"
+	"infra/Collider.hpp"
+	"infra/Message.hpp"
+	"infra/media_layer/Renderer.hpp"
+	"infra/Scene.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Message.hpp
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Scene.hpp
+	"infra/media_layer/Renderer.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/scene/Stage.hpp
+	<memory>
+	<list>
+	<iterator>
+	"infra/Path.hpp"
+	"infra/Hud.hpp"
+	"infra/Scene.hpp"
+	"infra/Entity.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Hud.hpp
+	"infra/media_layer/Renderer.hpp"
+	"infra/StageSymbols.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/StageSymbols.hpp
+	"infra/media_layer/Renderer.hpp"
+	"infra/Resources.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/Enemy.cpp
+	<cmath>
+	"infra/Keyboard.hpp"
+	"entity/GameController.hpp"
+	"entity/ScorePoint.hpp"
+	"entity/Enemy.hpp"
+	"entity/EnemyBeam.hpp"
+	"entity/EnemyExplosion.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/Keyboard.hpp
+	"infra/Resources.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/GameController.hpp
+	<set>
+	"infra/Collider.hpp"
+	"infra/Entity.hpp"
+	"scene/Stage.hpp"
+	"entity/Fighter.hpp"
+	"entity/FighterBullet.hpp"
+	"entity/EnemyBullet.hpp"
+	"entity/EnemyBeam.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/Fighter.hpp
+	"entity/Actor.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/FighterBullet.hpp
+	"scene/Stage.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/EnemyBullet.hpp
+	"scene/Stage.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/EnemyBeam.hpp
+	"scene/Stage.hpp"
+	"entity/Enemy.hpp"
+	"entity/Fighter.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/Enemy.hpp
+	<vector>
+	<map>
+	"entity/Actor.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/ScorePoint.hpp
+	"scene/Stage.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/EnemyExplosion.hpp
+	"scene/Stage.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/EnemyBeam.cpp
+	<iostream>
+	"infra/Util.hpp"
+	"entity/GameController.hpp"
+	"entity/EnemyBeam.hpp"
+	"entity/Fighter.hpp"
+	"entity/Enemy.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/EnemyBullet.cpp
+	<iostream>
+	"infra/Util.hpp"
+	"entity/GameController.hpp"
+	"entity/EnemyBullet.hpp"
+	"entity/Fighter.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/EnemyExplosion.cpp
+	<iostream>
+	"entity/EnemyExplosion.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/Fighter.cpp
+	<cmath>
+	"infra/Util.hpp"
+	"infra/Path.hpp"
+	"infra/Keyboard.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"entity/GameController.hpp"
+	"entity/Fighter.hpp"
+	"entity/FighterBullet.hpp"
+	"entity/FighterExplosion.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/media_layer/AudioPlayer.hpp
+	"infra/Resources.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/entity/FighterExplosion.hpp
+	"scene/Stage.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/FighterBullet.cpp
+	<iostream>
+	"entity/GameController.hpp"
+	"entity/FighterBullet.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/FighterExplosion.cpp
+	<iostream>
+	"entity/FighterExplosion.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/GameController.cpp
+	"infra/Util.hpp"
+	"infra/Keyboard.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/media_layer/Game.hpp"
+	"infra/SceneManager.hpp"
+	"entity/ScorePoint.hpp"
+	"entity/GameController.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/media_layer/Game.hpp
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/SceneManager.hpp
+	<memory>
+	<map>
+	"infra/media_layer/Renderer.hpp"
+	"infra/StarsBackground.hpp"
+	"infra/Hud.hpp"
+	"infra/Scene.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/infra/StarsBackground.hpp
+	"infra/Vec2.hpp"
+	"infra/media_layer/Renderer.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/entity/ScorePoint.cpp
+	"entity/ScorePoint.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/Collider.cpp
+	"infra/Collider.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/Hud.cpp
+	<cmath>
+	"infra/Util.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/Hud.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/Keyboard.cpp
+	<map>
+	"infra/Keyboard.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/Path.cpp
+	<algorithm>
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<cmath>
+	"infra/Util.hpp"
+	"infra/Path.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/SceneManager.cpp
+	"infra/SceneManager.hpp"
+	"scene/Initializing.hpp"
+	"scene/OlPresents.hpp"
+	"scene/Title.hpp"
+	"scene/Stage.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/scene/Initializing.hpp
+	"infra/Path.hpp"
+	"infra/Scene.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/scene/OlPresents.hpp
+	"infra/Path.hpp"
+	"infra/Scene.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/scene/Title.hpp
+	"infra/Vec2.hpp"
+	"infra/Scene.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/sdl2_impl/AudioPlayer.cpp
+	<map>
+	<memory>
+	<SDL2/SDL_mixer.h>
+	"infra/Util.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/sdl2_impl/Game.cpp
+	<chrono>
+	<thread>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/Util.hpp"
+	"infra/Keyboard.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/media_layer/Game.hpp"
+	"infra/media_layer/Renderer.hpp"
+	"infra/StarsBackground.hpp"
+	"infra/SceneManager.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/sdl2_impl/Renderer.cpp
+	<map>
+	<memory>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"infra/Util.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/Renderer.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/StageSymbols.cpp
+	"infra/Util.hpp"
+	"infra/Hud.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/StageSymbols.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/StarsBackground.cpp
+	<iostream>
+	<cmath>
+	"infra/Util.hpp"
+	"infra/StarsBackground.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/Util.cpp
+	<iostream>
+	<random>
+	<ctime>
+	"infra/Util.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/Vec2.cpp
+	<cmath>
+	"infra/Vec2.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/scene/Initializing.cpp
+	<iostream>
+	"infra/Util.hpp"
+	"infra/Vec2.hpp"
+	"infra/Collider.hpp"
+	"infra/Keyboard.hpp"
+	"infra/SceneManager.hpp"
+	"scene/Initializing.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/scene/OlPresents.cpp
+	<iostream>
+	<algorithm>
+	"infra/Util.hpp"
+	"infra/Vec2.hpp"
+	"infra/Keyboard.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/SceneManager.hpp"
+	"scene/OlPresents.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/scene/Stage.cpp
+	<iostream>
+	<algorithm>
+	<iterator>
+	"infra/Util.hpp"
+	"infra/Vec2.hpp"
+	"infra/Keyboard.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/SceneManager.hpp"
+	"scene/Stage.hpp"
+	"entity/GameController.hpp"
+	"entity/ScorePoint.hpp"
+	"entity/Fighter.hpp"
+	"entity/FighterExplosion.hpp"
+	"entity/Enemy.hpp"
+	"entity/EnemyBeam.hpp"
+	"entity/EnemyExplosion.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/scene/Title.cpp
+	<iostream>
+	<algorithm>
+	"infra/Util.hpp"
+	"infra/Vec2.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/Keyboard.hpp"
+	"infra/SceneManager.hpp"
+	"scene/Title.hpp"
+
+1559486711 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/olc_pge_impl/AudioPlayer.cpp
+	<map>
+	"olcPixelGameEngine.h"
+	"olcPGEX_Sound.h"
+	"infra/Util.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/olcPixelGameEngine.h
+	"olcPixelGameEngine.h"
+	<windows.h>
+	<gdiplus.h>
+	<GL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<png.h>
+	<cmath>
+	<cstdint>
+	<string>
+	<iostream>
+	<streambuf>
+	<chrono>
+	<vector>
+	<list>
+	<thread>
+	<atomic>
+	<condition_variable>
+	<fstream>
+	<map>
+	<functional>
+	<algorithm>
+	"olcPixelGameEngine.h"
+
+1559486679 /home/leo/NetBeansProjects/CppGalaga/Galaga_v3/include/olcPGEX_Sound.h
+	<istream>
+	<cstring>
+	<climits>
+	<algorithm>
+	<alsa/asoundlib.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<queue>
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/olc_pge_impl/Game.cpp
+	<chrono>
+	<thread>
+	"olcPixelGameEngine.h"
+	"infra/Util.hpp"
+	"infra/Keyboard.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/media_layer/Game.hpp"
+	"infra/media_layer/Renderer.hpp"
+	"infra/StarsBackground.hpp"
+	"infra/SceneManager.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/olc_pge_impl/Renderer.cpp
+	<map>
+	"olcPixelGameEngine.h"
+	"infra/Util.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/Renderer.hpp"
+
+1559486725 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/sfml_impl/AudioPlayer.cpp
+	<map>
+	<memory>
+	<SFML/Audio.hpp>
+	"infra/Util.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/sfml_impl/Game.cpp
+	<chrono>
+	<thread>
+	<SFML/Graphics.hpp>
+	"infra/Util.hpp"
+	"infra/Keyboard.hpp"
+	"infra/media_layer/AudioPlayer.hpp"
+	"infra/media_layer/Game.hpp"
+	"infra/media_layer/Renderer.hpp"
+	"infra/StarsBackground.hpp"
+	"infra/SceneManager.hpp"
+
+1559486679 source:/home/leo/NetBeansProjects/CppGalaga/Galaga_v3/src/infra/sfml_impl/Renderer.cpp
+	<map>
+	<memory>
+	<SFML/Graphics.hpp>
+	"infra/Util.hpp"
+	"infra/Resources.hpp"
+	"infra/media_layer/Renderer.hpp"
+
