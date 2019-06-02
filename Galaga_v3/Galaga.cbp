@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Galaga" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="DebugSFML">
+				<Option output="bin/Debug/Galaga2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="include/infra" />
+					<Add directory="include/actor" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseSFML">
+				<Option output="bin/Release/Galaga2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/infra" />
+					<Add directory="include/actor" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseOlcPGE">
+				<Option output="bin/Release/Galaga2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/infra" />
+					<Add directory="include/actor" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="X11" />
+					<Add library="GL" />
+					<Add library="pthread" />
+					<Add library="png" />
+					<Add library="asound" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseSDL2">
+				<Option output="bin/Release/Galaga2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="include/infra" />
+					<Add directory="include/actor" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="SDL2" />
+					<Add library="SDL2_image" />
+					<Add library="SDL2_mixer" />
+					<Add library="SDL2_ttf" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="include/entity/Actor.hpp" />
+		<Unit filename="include/entity/Enemy.hpp" />
+		<Unit filename="include/entity/EnemyBeam.hpp" />
+		<Unit filename="include/entity/EnemyBullet.hpp" />
+		<Unit filename="include/entity/EnemyExplosion.hpp" />
+		<Unit filename="include/entity/Fighter.hpp" />
+		<Unit filename="include/entity/FighterBullet.hpp" />
+		<Unit filename="include/entity/FighterExplosion.hpp" />
+		<Unit filename="include/entity/GameController.hpp" />
+		<Unit filename="include/entity/ScorePoint.hpp" />
+		<Unit filename="include/infra/Collider.hpp" />
+		<Unit filename="include/infra/Entity.hpp" />
+		<Unit filename="include/infra/Hud.hpp" />
+		<Unit filename="include/infra/Keyboard.hpp" />
+		<Unit filename="include/infra/Message.hpp" />
+		<Unit filename="include/infra/Path.hpp" />
+		<Unit filename="include/infra/Resources.hpp" />
+		<Unit filename="include/infra/Scene.hpp" />
+		<Unit filename="include/infra/SceneManager.hpp" />
+		<Unit filename="include/infra/StageSymbols.hpp" />
+		<Unit filename="include/infra/StarsBackground.hpp" />
+		<Unit filename="include/infra/Util.hpp" />
+		<Unit filename="include/infra/Vec2.hpp" />
+		<Unit filename="include/infra/media_layer/AudioPlayer.hpp" />
+		<Unit filename="include/infra/media_layer/Game.hpp" />
+		<Unit filename="include/infra/media_layer/Renderer.hpp" />
+		<Unit filename="include/olcPGEX_Sound.h">
+			<Option target="ReleaseOlcPGE" />
+		</Unit>
+		<Unit filename="include/olcPixelGameEngine.h">
+			<Option target="ReleaseOlcPGE" />
+		</Unit>
+		<Unit filename="include/scene/Initializing.hpp" />
+		<Unit filename="include/scene/OlPresents.hpp" />
+		<Unit filename="include/scene/Stage.hpp" />
+		<Unit filename="include/scene/Title.hpp" />
+		<Unit filename="src/entity/Actor.cpp" />
+		<Unit filename="src/entity/Enemy.cpp" />
+		<Unit filename="src/entity/EnemyBeam.cpp" />
+		<Unit filename="src/entity/EnemyBullet.cpp" />
+		<Unit filename="src/entity/EnemyExplosion.cpp" />
+		<Unit filename="src/entity/Fighter.cpp" />
+		<Unit filename="src/entity/FighterBullet.cpp" />
+		<Unit filename="src/entity/FighterExplosion.cpp" />
+		<Unit filename="src/entity/GameController.cpp" />
+		<Unit filename="src/entity/ScorePoint.cpp" />
+		<Unit filename="src/infra/Collider.cpp" />
+		<Unit filename="src/infra/Hud.cpp" />
+		<Unit filename="src/infra/Keyboard.cpp" />
+		<Unit filename="src/infra/Path.cpp" />
+		<Unit filename="src/infra/SceneManager.cpp" />
+		<Unit filename="src/infra/StageSymbols.cpp" />
+		<Unit filename="src/infra/StarsBackground.cpp" />
+		<Unit filename="src/infra/Util.cpp" />
+		<Unit filename="src/infra/Vec2.cpp" />
+		<Unit filename="src/infra/olc_pge_impl/AudioPlayer.cpp">
+			<Option target="ReleaseOlcPGE" />
+		</Unit>
+		<Unit filename="src/infra/olc_pge_impl/Game.cpp">
+			<Option target="ReleaseOlcPGE" />
+		</Unit>
+		<Unit filename="src/infra/olc_pge_impl/Renderer.cpp">
+			<Option target="ReleaseOlcPGE" />
+		</Unit>
+		<Unit filename="src/infra/sdl2_impl/AudioPlayer.cpp">
+			<Option target="ReleaseSDL2" />
+		</Unit>
+		<Unit filename="src/infra/sdl2_impl/Game.cpp">
+			<Option target="ReleaseSDL2" />
+		</Unit>
+		<Unit filename="src/infra/sdl2_impl/Renderer.cpp">
+			<Option target="ReleaseSDL2" />
+		</Unit>
+		<Unit filename="src/infra/sfml_impl/AudioPlayer.cpp">
+			<Option target="DebugSFML" />
+			<Option target="ReleaseSFML" />
+		</Unit>
+		<Unit filename="src/infra/sfml_impl/Game.cpp">
+			<Option target="DebugSFML" />
+			<Option target="ReleaseSFML" />
+		</Unit>
+		<Unit filename="src/infra/sfml_impl/Renderer.cpp">
+			<Option target="DebugSFML" />
+			<Option target="ReleaseSFML" />
+		</Unit>
+		<Unit filename="src/scene/Initializing.cpp" />
+		<Unit filename="src/scene/OlPresents.cpp" />
+		<Unit filename="src/scene/Stage.cpp" />
+		<Unit filename="src/scene/Title.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
