@@ -1,4 +1,4 @@
-# C++ / SFML Galaga
+# C++ Galaga
 
 Galaga game implemented using C++
 
