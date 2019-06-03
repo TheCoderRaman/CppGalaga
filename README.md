@@ -10,6 +10,7 @@ Galaga game implemented using C++
 
 * OS: Linux Ubuntu 16.04 (xenial)
 * IDE: Code::Blocks 16.01
+* g++ 5.4.0
 
 * SDL 2.0.4 + extensions: SDL_image, SDL_ttf and SDL_mixer (from default package manager)
 * SFML 2.3.2 (from default package manager)
